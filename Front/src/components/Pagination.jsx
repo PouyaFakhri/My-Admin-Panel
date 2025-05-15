@@ -1,9 +1,8 @@
 import ReactPaginate from "react-paginate";
-import "./pagination.css";
+import "./Pagination.css";
 
 function Pagination({ value }) {
   const {page , setPage, totalPage } = value;
-
   const handlePageClick = (event) => {
     setPage(event.selected + 1);
   };
