@@ -13,7 +13,7 @@ import { toast } from "react-toastify";
 import { useEffect } from "react";
 import Modal from "../components/Modal";
 import DeleteModal from "../components/DeleteModal";
-import Pagination from "../components/pagination";
+import Pagination from "../components/Pagination";
 
 function Dashboard() {
   const [page, setPage] = useState(1);
